@@ -36,18 +36,32 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  border-radius: 32px;
+  color: #ffffff;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+
+.main-button {
+  background-color: #007bc3;
+  width: 333px;
+  height: 58px;
+}
+
+.wheel-button {
+  background-color: #001f45;
+  width: 355px;
+  height: 49px;
+}
+
+.form-button {
+  background-color: #d752fd;
+  width: 455px;
+  height: 95px;
 }
 button:focus,
 button:focus-visible {

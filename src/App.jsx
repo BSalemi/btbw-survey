@@ -1,7 +1,8 @@
 import { useState } from "react";
+import Button from "./components/ui/Button";
 
 function App() {
-  return;
+  return <div></div>;
 }
 
 export default App;
