@@ -77,9 +77,27 @@ button {
 }
 
 .dots-wrapper {
-  display: flex !important;
+  display: flex;
   gap: 5px;
 }
+
+.bar {
+  height: 17px;
+  width: 197px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.bar.active {
+  background-color: #d752fd;
+}
+
+.bars-wrapper {
+  display: flex;
+  gap: 34px;
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
