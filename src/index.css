@@ -63,6 +63,23 @@ button {
   width: 455px;
   height: 95px;
 }
+
+.dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #ffffff66;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #ffffff;
+}
+
+.dots-wrapper {
+  display: flex !important;
+  gap: 5px;
+}
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
