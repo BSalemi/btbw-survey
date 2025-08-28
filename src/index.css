@@ -33,15 +33,20 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 85px;
   line-height: 1.1;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 500;
 }
 
 button {
   border-radius: 32px;
   color: #ffffff;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 30px;
   font-weight: 600;
   font-family: inherit;
   cursor: pointer;
@@ -75,6 +80,7 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .welcome-screen {
@@ -100,15 +106,27 @@ button {
   max-width: 763px;
 }
 
+.overview-screen {
+  background-color: #001f45;
+  padding-left: 82px;
+  padding-right: 82px;
+  justify-content: space-evenly;
+}
+
+.overview-header {
+  padding-left: 82px;
+  padding-right: 82px;
+  text-transform: uppercase;
+  color: #007bc3;
+  line-height: 120%;
+}
+
 .start-button {
   background-color: #001f45;
-  font-size: 30px;
 }
 
 .main-button {
   background-color: #007bc3;
-  width: 333px;
-  height: 58px;
 }
 
 .wheel-button {
