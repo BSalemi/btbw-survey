@@ -81,6 +81,7 @@ button {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  padding: 90px;
 }
 
 .welcome-screen {
