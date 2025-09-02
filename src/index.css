@@ -84,6 +84,79 @@ button {
   padding: 90px;
 }
 
+.articles-screen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #001f45;
+}
+
+.articles-cards {
+  flex: 0 0 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-card {
+  flex: 1;
+  display: flex;
+}
+
+.article-card-content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.article-card-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.article-card img {
+  width: 42%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.article-card-text {
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.article-card h3 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.article-card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.articles-footer {
+  flex: 0 0 25vh;
+  background-color: #001f45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px 40px;
+}
+
 .welcome-screen {
   background-color: #007bc3;
   padding-left: 82px;
