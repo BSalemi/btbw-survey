@@ -10,7 +10,7 @@ export default function ArticleCard({
   return (
     <div className="article-card" style={{ backgroundColor }}>
       <div
-        className={`article-card-content ${imageIsOnRight ? "reverse" : ""}`}
+        className={`article-card-content ${imageIsOnRight ? "" : "reverse"}`}
       >
         {image && <img src={image} alt={title} />}
         <div className="article-card-text" style={{ maxWidth: "355px" }}>

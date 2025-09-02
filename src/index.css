@@ -93,14 +93,16 @@ button {
 }
 
 .articles-cards {
-  flex: 0 0 75vh;
+  flex: 2.5;
   display: flex;
   flex-direction: column;
 }
 
 .article-card {
-  flex: 1;
+  flex: 0.83;
   display: flex;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .article-card-content {
@@ -119,14 +121,13 @@ button {
 }
 
 .article-card img {
-  width: 42%;
-  height: auto;
+  width: 447px;
+  height: 355px;
   object-fit: cover;
-  border-radius: 12px;
 }
 
 .article-card-text {
-  width: 52%;
+  max-width: 380px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -136,25 +137,27 @@ button {
 
 .article-card h3 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 40px;
   line-height: 1.2;
+  font-weight: 600;
 }
 
 .article-card p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 25px;
   line-height: 1.45;
+  font-weight: 500;
 }
 
 .articles-footer {
-  flex: 0 0 25vh;
+  flex: 1.5;
   background-color: #001f45;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 24px 40px;
+  /* padding: 24px 40px; */
 }
 
 .welcome-screen {
@@ -225,6 +228,10 @@ button {
   background-color: #14d6e0;
   color: #000000;
   font-weight: 600;
+  width: 160px;
+  height: 57px;
+  font-size: 23px;
+  white-space: nowrap;
 }
 
 .back-or-next-button {
