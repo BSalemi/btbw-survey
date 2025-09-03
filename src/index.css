@@ -239,6 +239,66 @@ button {
   width: 419px;
 }
 
+.nav-arrow-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-arrow {
+  --size: 60px;
+  --bg: #d752fd;
+  --arrow-color: #fff;
+  --arrow-stroke: 1.5;
+
+  width: var(--size);
+  height: var(--size);
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--bg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  appearance: none;
+  transition: transform 0.12s ease, opacity 0.12s ease;
+}
+
+.arrow-icon {
+  width: 80%;
+  height: 80%;
+  color: var(--arrow-color);
+}
+
+.arrow-icon line {
+  stroke: currentColor;
+  stroke-width: var(--arrow-stroke);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  shape-rendering: crispEdges;
+}
+
+.nav-arrow.left .arrow-icon {
+  transform: scaleX(-1);
+}
+
+.nav-arrow:not(:disabled):hover {
+  transform: scale(1.06);
+}
+
+.nav-arrow:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(215, 82, 253, 0.16);
+}
+
+.nav-arrow:disabled {
+  background: #d752fd77;
+  cursor: not-allowed;
+  opacity: 0.98;
+}
+
 .dot {
   width: 28px;
   height: 28px;
